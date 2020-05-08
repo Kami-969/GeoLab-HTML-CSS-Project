@@ -72,6 +72,22 @@ body{
   margin-bottom: 0px;
 }
 /*             /Carousel           */
+body{
+  height:1000px;
+  padding-top: 59px;
+}
+.header-wrapper{
+  position:fixed;
+  top:0px;
+  width: 100%;
+  height: 100px;
+  z-index: 11;
+
+}
+.navbar-nav{
+  font-weight: bold;
+}
+
 /*             Responsive           */
 
 @media only screen and (max-width: 1175px) {

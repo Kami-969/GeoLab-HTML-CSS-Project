@@ -22,19 +22,98 @@
   height: 100px;
 }
 
-.carousel-caption {
-  position: absolute;
-  right: 30%;
-  bottom: 30%;
-   left: 30%;
-}
 .carousel-caption h5{
   font-size: 78.74px;
   font-family: Arial; font-weight: regular;
 }
 
 .carousel-caption p{
-  font-size: 18px;
+  font-size: 18;
   font-family: 'Raleway', sans-serif;
 }
+
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: 0%;
+  bottom: 0px;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+}
 /*             /Carousel           */
+/*             Responsive           */
+
+@media only screen and (max-width: 1175px) {
+  .carousel-caption p{
+    font-size: 18px;
+  }
+
+  .carousel-caption h5{
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .carousel-caption p{
+    font-size: 15px;
+  }
+
+  .carousel-caption h5{
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .carousel-caption p{
+    font-size: 15px;
+  }
+
+  .carousel-caption h5{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .carousel-caption p{
+    font-size: 10px;
+  }
+
+  .carousel-caption h5{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .carousel-caption p{
+    font-size: 7px;
+  }
+
+  .carousel-caption h5{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .carousel-caption p{
+    font-size: 5px;
+  }
+
+  .carousel-caption h5{
+    font-size: 15px;
+  }
+}
+/*             /Responsive           */

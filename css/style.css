@@ -24,6 +24,7 @@
 
 .carousel-caption {
   position: absolute;
+ text-align: center;
   right: 30%;
   bottom: 30%;
    left: 30%;

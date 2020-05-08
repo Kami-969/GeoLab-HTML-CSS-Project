@@ -1,0 +1,40 @@
+/*              Fonts            */
+@font-face {
+  font-family: 'Raleway';
+  src: url('../Fonts/Raleway-SemiBold.eot');
+  src: url('../Fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/Raleway-SemiBold.woff2') format('woff2'),
+      url('../Fonts/Raleway-SemiBold.woff') format('woff'),
+      url('../Fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+/*              /Fonts            */
+/*             Carousel           */
+.carousel-control-prev-icon{
+  background-image: url("../image/Left side arrow.png");
+  width: 100px;
+  height: 100px;
+}
+.carousel-control-next-icon{
+  background-image: url("../image/Rigth side arrow.png");
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 30%;
+  bottom: 30%;
+   left: 30%;
+}
+.carousel-caption h5{
+  font-size: 78.74px;
+  font-family: Arial; font-weight: regular;
+}
+
+.carousel-caption p{
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+/*             /Carousel           */

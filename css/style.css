@@ -39,3 +39,18 @@
   font-family: 'Raleway', sans-serif;
 }
 /*             /Carousel           */
+body{
+    height:1000px;
+    padding-top: 59px;
+}
+.header-wrapper{
+    position:fixed;
+    top:0px;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+
+}
+.navbar-nav{
+    font-weight: bold;
+}

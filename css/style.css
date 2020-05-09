@@ -97,6 +97,16 @@
   font-size: 26px;
 }
 
+.text-1{
+  position: absolute;
+  background-color:#FED701;
+  top: 10px;
+  left: 10px;
+}
+.card{
+  position: relative;
+}
+
 .video-wrapp{
   position: absolute;
   top: 70%;
@@ -115,6 +125,17 @@
   height: 60%;
   border-radius: 8px;
 } 
+
+.img1{
+  margin-top: 0px;
+  padding-bottom: 50px;
+  width: 60px;
+  margin-left: 180px;
+}
+.text1{
+  margin-bottom: 0;
+}
+
 /*            /Video With Image Background           */
 
 .statwrap{

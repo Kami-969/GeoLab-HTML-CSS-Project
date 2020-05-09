@@ -1,5 +1,16 @@
 /*              Fonts            */
 @font-face {
+  font-family: 'Lato';
+  src: url('../Fonts/Lato-Bold.eot');
+  src: url('../Fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/Lato-Bold.woff2') format('woff2'),
+      url('../Fonts/Lato-Bold.woff') format('woff'),
+      url('../Fonts/Lato-Bold.svg#Lato-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Raleway';
   src: url('../Fonts/Raleway-SemiBold.eot');
   src: url('../Fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -27,12 +38,19 @@
 .Ralewaysemiregularfont{
   font-family: 'Raleway regular', sans-serif;
 }
+.LatoBold{
+  font-family: 'Lato', sans-serif;
+}
+.Ralewaymediumfont{
+  font-family: 'Raleway medium', sans-serif;
+}
 /*              /Fonts            */
 /*              /Fonts            */
 .discover{
   font-family: 'Raleway semibold', sans-serif;
   color:#8D8D8D ;
   margin-bottom: 0;
+  font-size: 16px;
 }
 .service{
   font-size: 26px;

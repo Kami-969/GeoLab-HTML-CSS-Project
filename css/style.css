@@ -59,7 +59,7 @@
 }
 /*            /Header navbar           */
 .cover-wrapper{
- background-image: url("/image/Clip.png");
+ background-image: url("image/Clip.png");
  background-repeat: no-repeat;
  background-size: cover;
  padding-left: 0px;
@@ -72,7 +72,6 @@
 }
 /*            Video With Image Background           */
 
-/*            /Video With Image Background           */
 .shape-wrapp{
   margin-top: 0px;
   padding-bottom: 30px;
@@ -114,5 +113,6 @@
   border-bottom: 4px solid #4B54FA;
   width: 50%;
   height: 60%;
-  -webkit-border-radius: 8px;
+  border-radius: 8px;
 } 
+/*            /Video With Image Background           */

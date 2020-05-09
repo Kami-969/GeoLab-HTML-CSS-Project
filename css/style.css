@@ -9,6 +9,23 @@
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway-Medium.eot');
+  src: url('Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+      url('Raleway-Medium.woff2') format('woff2'),
+      url('Raleway-Medium.woff') format('woff'),
+      url('Raleway-Medium.svg#Raleway-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Ralewaysemiboldfont{
+  font-family: 'Raleway semibold', sans-serif;
+}
+.Ralewaysemiregularfont{
+  font-family: 'Raleway regular', sans-serif;
+}
 /*              /Fonts            */
 
 /*             Carousel           */
@@ -30,24 +47,9 @@
 
 .carousel-caption p{
   font-size: 18;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway semibold', sans-serif;
 }
 /*             /Carousel           */
-body{
-    height:1000px;
-    padding-top: 59px;
-}
-.header-wrapper{
-    position:fixed;
-    top:0px;
-    width: 100%;
-    height: 100px;
-    z-index: 11;
-
-}
-.navbar-nav{
-    font-weight: bold;
-}
 
 
 .carousel-item {
@@ -72,25 +74,33 @@ body{
   text-align: center;
   margin-bottom: 0px;
 }
+
+
 /*             /Carousel           */
-body{
-  height:1000px;
-  padding-top: 59px;
+/*             Header navbar           */
+.carousel-wrapper{
+  margin-top: 70px;
 }
+
 .header-wrapper{
   position:fixed;
   top:0px;
   width: 100%;
   height: 100px;
   z-index: 11;
-
 }
 .navbar-nav{
   font-weight: bold;
 }
+/*            /Header navbar           */
+
+.Service-Wrapper{
+  margin-top: 50px;
+}
+/*            Video With Image Background           */
+/*            /Video With Image Background           */
 
 /*             Responsive           */
-
 @media only screen and (max-width: 1175px) {
   .carousel-caption p{
     font-size: 18px;
@@ -170,3 +180,4 @@ body{
 }
 
 /*              /Fonts            */
+/*            /Responsive           */

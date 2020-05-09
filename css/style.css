@@ -10,6 +10,7 @@
   font-style: normal;
 }
 /*              /Fonts            */
+
 /*             Carousel           */
 .carousel-control-prev-icon{
   background-image: url("../image/Left side arrow.png");
@@ -149,3 +150,23 @@ body{
   }
 }
 /*             /Responsive           */
+/*              /Fonts            */
+.discover{
+    font-size: 16px;
+    font-family: 'Raleway semibold', sans-serif;
+    color:#8D8D8D ;
+    margin-bottom: 0;
+}
+.service{
+    font-size: 26px;
+    font-family: 'Raleway semibold', sans-serif;
+    color:black;
+}
+.rolern{
+    font-size: 16px;
+    font-family: 'Raleway medium', sans-serif;
+    color:#8D8D8D;
+    margin-top:16px;
+}
+
+/*              /Fonts            */

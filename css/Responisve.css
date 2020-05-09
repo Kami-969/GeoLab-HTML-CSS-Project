@@ -1,0 +1,105 @@
+
+/*             Responsive           */
+@media only screen and (max-width: 1175px) {
+  .carousel-caption p{
+    font-size: 18px;
+  }
+
+  .carousel-caption h5{
+    font-size: 60px;
+  }
+
+  .coverthing h2{
+    font-size: 36px;
+  }
+  .coverthing h3{
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .carousel-caption p{
+    font-size: 15px;
+  }
+
+  .carousel-caption h5{
+    font-size: 60px;
+  }
+
+  .coverthing h2{
+    font-size: 36px;
+  }
+  .coverthing h3{
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .carousel-caption p{
+    font-size: 15px;
+  }
+
+  .carousel-caption h5{
+    font-size: 40px;
+  }
+
+    .coverthing h2{
+      font-size: 26px;
+    }
+    .coverthing h3{
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .carousel-caption p{
+    font-size: 10px;
+  }
+
+  .carousel-caption h5{
+    font-size: 30px;
+  }
+
+  .coverthing h2{
+    font-size: 16px;
+  }
+  .coverthing h3{
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .carousel-caption p{
+    font-size: 7px;
+  }
+
+  .carousel-caption h5{
+    font-size: 55px;
+  }
+
+  .coverthing h2{
+    font-size: 13px;
+  }
+  .coverthing h3{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .carousel-caption p{
+    font-size: 5px;
+  }
+
+  .carousel-caption h5{
+    font-size: 15px;
+  }
+
+  .coverthing h2{
+    font-size: 10px;
+  }
+  .coverthing h3{
+    font-size: 8px;
+  }
+  
+}
+/*             /Responsive           */

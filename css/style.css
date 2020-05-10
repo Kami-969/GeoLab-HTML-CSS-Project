@@ -159,3 +159,60 @@ color: #fff;
 hr {
   border-top: 1px solid #707070;
 }
+
+
+.modal-newsletter .form-control, .modal-newsletter .btn {
+  border-radius: 3px; 
+}
+.modal-newsletter .form-control {
+  box-shadow: none;
+  border-color: #dbdbdb;
+}
+.modal-newsletter .form-control:focus {
+  border-color: #18D0C3;
+  box-shadow: 0 0 8px rgba(24, 208, 195, 100%)!important;
+}
+  .modal-newsletter .btn {
+      color: #fff;
+      border-radius: 4px;
+      background: #18D0C3!important;
+      text-decoration: none;
+      transition: all 0.4s;
+      line-height: normal;
+      padding: 6px 20px;
+      border: none;
+  }
+.modal-newsletter .btn:hover, .modal-newsletter .btn:focus {
+  background: #18D0C3!important;
+  outline: none;
+}
+.modal-newsletter .input-group {
+  margin: 30px 0 15px;
+}
+
+.input-group {
+  width: 30%!important;
+  height: 50%;
+}
+
+.form-control{
+  height: 45%;
+}
+.btn{
+  width: 70%;
+  height: 45%;
+  background: #18D0C3!important;
+}
+
+.input-group-btn{
+  width: 20%;
+ 
+}
+
+.pred{
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
